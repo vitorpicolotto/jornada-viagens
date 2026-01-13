@@ -13,9 +13,12 @@
     align-items: center;
     justify-content: center;
     gap: 24px;
+    padding: 24px;
     background-color: var(--background-secondary-color);
     color: var(--text-primary-color);
-    font-weight: var(--text-font-weight);
+    font-weight: var(--title-font-weight);
+    font-size: 22px;
+    text-align: center;
     text-decoration: none;
     border-radius: 16px;
     width: 312px;
