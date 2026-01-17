@@ -1,6 +1,3 @@
-.offers {
-  margin-bottom: 88px;
-}
 
 .offers-cards {
   display: flex;
@@ -48,21 +45,25 @@
 .card.japao {
   background: url(../img/bg-card-japao.jpg) no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .card.san-andreas {
   background: url(../img/bg-card-san-andreas.jpg) no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .card.paraiba {
   background: url(../img/bg-card-paraiba.jpg) no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .card.manaus {
   background: url(../img/bg-card-manaus.jpg) no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 @media screen and (min-width:768px) {
