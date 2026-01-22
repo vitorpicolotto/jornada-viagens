@@ -1,0 +1,65 @@
+.payments .image-payment{
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ gap: 24px;
+ height: 460px;
+ margin-top: 24px;
+ grid-row: 1fr 1fr;   
+ width: 100%;
+}
+
+.image-payment .image.first{
+    background: url("../img/pagamentos-1.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.image-payment .image.second{
+    background: url("../img/pagamentos-2.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.image-payment .image.third{
+    background: url("../img/pagamentos-3.png") no-repeat;
+    background-size: cover; 
+    background-position: center;
+    grid-column: span 2;
+}
+
+@media screen and (min-width: 768px){
+    .image-payment .image.first{
+        background: url("../img/pagamentos-1-tab.png") no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .image-payment .image.second{
+        background: url("../img/pagamentos-2-tab.png") no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .image-payment .image.third{
+        background: url("../img/pagamentos-3-tab.png") no-repeat;
+        background-size: cover; 
+        background-position: center;
+        grid-column: span 2;
+    }
+}
+
+
+@media screen and (min-width: 1440px){
+    .content-container{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .payments .text-payment{
+        width: 360px;
+    }
+    
+    .payments .image-payment{
+        width: 790px;
+    }
+}
