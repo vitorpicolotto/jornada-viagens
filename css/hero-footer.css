@@ -26,4 +26,11 @@
         background-position: center;
     }
     
+    .travel-packages .hero-footer-img{
+    height: 400px;
+    width: 100%;
+    background: url("../img/hero-footer-package-desktop.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    }
 }
